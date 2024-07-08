@@ -22,7 +22,7 @@ public class Application {
 
 	@Bean
 	CommandLineRunner commandLineRunner() {
-		return args -> System.out.println("hello ");
+		return args -> log.debug("hello ");
 	}
 
 }
